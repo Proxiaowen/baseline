@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Dec  8 14:16:10 2018
+Created on Sat Dec  9 14:16:10 2018
 
 @author: Administrator
 """
@@ -68,7 +68,7 @@ ALLPS=['MI_reg','F-regression','VAR','PCA','KernelPCA','FasterICA','FactorAnalys
 
 dimenum=list(range(1,40,3))
 
-allfeature=np.loadtxt(open(r'F:\20181209parejscode\brats2018trainfeature_cleartitle_die_name_translivetime.csv','r',encoding='utf-8-sig'),delimiter=",",skiprows=0)
+allfeature=np.loadtxt(open(r'F:\trainfeature_cleartitle_die_name_translivetime.csv','r',encoding='utf-8-sig'),delimiter=",",skiprows=0)
 
 resultspdf=pd.DataFrame(columns=['Regression Method','Seletion Method','Dimension Number','ACC-mean','ACC-std'])
 
